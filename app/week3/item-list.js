@@ -76,7 +76,7 @@ export default function ItemList(){
     
     return(
         <div> 
-            <h1>Shopping List</h1>
+            <h1 className= "font-bold text-center text-blue-800">Shopping List</h1>
             <ul>
                 <li>
                     {item1.name}
