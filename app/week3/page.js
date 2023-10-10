@@ -1,4 +1,4 @@
-import ItemList from "app\week3\item-list.js"
+import ItemList from "week3\item-list.js"
 
 export default function page() {
     return(
