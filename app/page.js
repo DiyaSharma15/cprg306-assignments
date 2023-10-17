@@ -1,5 +1,5 @@
-import StudentInfo from "./studentInfo";
-import Link from "next/link";
+import StudentInfo from "./studentInfo"
+import Link from "next/link"
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       <Link className= "text-lg mx-4 text-blue-600" href="/week2">week2</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week3">week3</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week4">week4</Link>
+      <Link className= "text-lg mx-4 text-blue-600" href="/week5">week4</Link>
     </main>
   );
 }
