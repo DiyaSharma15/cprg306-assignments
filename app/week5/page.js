@@ -1,4 +1,6 @@
-import ItemList from "week5\item-list.js"
+import React from "react";
+import ItemList from "./item-list";
+import Link from "next/link";
 
 export default function page() {
     return(

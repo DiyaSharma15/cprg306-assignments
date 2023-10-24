@@ -1,15 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Item from "./item.js";
-import itemsData from "./items.json";
 
-export default function ItemList() {
+
+export default function ItemList( { items } ) {
   const [sortBy, setSortBy] = useState("name");
   const [sortedItems, setSortedItems] = useState([]);
 
   useEffect(() => {
    
-    const sortedItemsCopy = [...itemsData];
+    const sortedItemsCopy = [...items];
 
     if (sortBy === "name") {
       console.log("sort by name");

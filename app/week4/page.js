@@ -1,11 +1,9 @@
-"use client"
-import { useState } from "react"
-import NewItem from "./new-item"
+import NewItem from "./new-item";
 
-export default function page(){
+export default function Page() {
     return(
         <main>
-            <NewItem />
-        </main>
+            <NewItem/>
+        </main> 
     )
 }
