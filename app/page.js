@@ -13,6 +13,8 @@ export default function Home() {
       <Link className= "text-lg mx-4 text-blue-600" href="/week4">week4</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week5">week5</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week6">week6</Link><br/>
+      <Link className= "text-lg mx-4 text-blue-600" href="/week7">week7</Link><br/>
+
 
     </main>
   );
