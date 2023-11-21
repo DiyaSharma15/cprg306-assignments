@@ -15,6 +15,7 @@ export default function Home() {
       <Link className= "text-lg mx-4 text-blue-600" href="/week6">week6</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week7">week7</Link><br/>
       <Link className= "text-lg mx-4 text-blue-600" href="/week8">week8</Link><br/>
+      <Link className= "text-lg mx-4 text-blue-600" href="/week10">week10</Link><br/>
 
 
     </main>
